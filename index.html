@@ -1,113 +1,113 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae - Itzel Evelia Quintana Ramírez</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: #fff;
-            padding: 40px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            border-bottom: 2px solid #333;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-            font-size: 1.1em;
-        }
-        .contact-info a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            color: #0073e6;
-            border-bottom: 2px solid #0073e6;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .section ul li {
-            margin-bottom: 20px;
-        }
-        .section ul li h3 {
-            margin: 0;
-            font-size: 1.3em;
-            color: #333;
-        }
-        .section ul li p {
-            margin: 5px 0;
-            font-size: 1.1em;
-            line-height: 1.5;
-            color: #666;
-        }
-    </style>
+    <title>Itzel Evelia Quintana Ramírez - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/d02c96baf6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Itzel Evelia Quintana Ramírez</h1>
-        
-        <div class="contact-info">
-            <div>
-                <p><strong>Location:</strong> Mexico City, Mexico</p>
-                <p><strong>Email:</strong> <a href="mailto:itzelquira@gmail.com">itzelquira@gmail.com</a></p>
-                <p><strong>Phone:</strong> +52 5611750485</p>
+        <header class="header">
+            <div class="header-content">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-picture">
+                <div class="header-info">
+                    <h1>Itzel Evelia Quintana Ramírez</h1>
+                    <p>Frontend Developer</p>
+                    <p class="contact-info">
+                        <a href="mailto:itzelquira@gmail.com"><i class="fas fa-envelope"></i> itzelquira@gmail.com</a> | 
+                        <a href="tel:+525611750485"><i class="fas fa-phone"></i> +52 5611750485</a> | 
+                        <a href="https://www.linkedin.com/in/itzelquintana"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+                        <a href="https://github.com/itzelquintana"><i class="fab fa-github"></i> GitHub</a>
+                    </p>
+                </div>
             </div>
-            <div>
-                <p><strong>Websites:</strong></p>
-                <p><a href="https://www.linkedin.com/in/itzelquintana" target="_blank">LinkedIn</a></p>
-                <p><a href="https://github.com/itzelquintana" target="_blank">GitHub</a></p>
+        </header>
+
+        <section class="banner">
+            <div class="banner-content">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-c#"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-node"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-express"></i>
+                        <span>Express</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-mongodb"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-sql"></i>
+                        <span>SQL</span>
+                    </div>
+                    
+                </div>
             </div>
-        </div>
-        
-        <div class="section">
-            <h2>Educación</h2>
-            <ul>
-                <li>
-                    <h3>Web Developer</h3>
-                    <p>Laboratoria (August 2023 - February 2024)</p>
-                    <p>Intensive bootcamp with job simulation where I honed skills in designing, developing, and implementing solutions using agile SCRUM methodology. This experience enhanced my ability to analyze business requirements, collaborate effectively in multidisciplinary teams, and communicate technical concepts.</p>
-                </li>
-                <li>
-                    <h3>Chemical Engineer</h3>
-                    <p>Universidad Nacional Autónoma De México, Facultad De Química (August 2015 - May 2020)</p>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- Secciones adicionales como Experiencia Profesional y Habilidades pueden agregarse aquí -->
-        
+        </section>
+
+        <section class="section projects-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3><a href="https://github.com/ItzelQuintana/DEV011-BA06"><i class="fab fa-github"></i> GuessTheNumber</a></h3>
+                    <p>Developed a JavaScript-based REST API for managing a burger restaurant system. Conducted 
+                        comprehensive testing, covering 90% of the codebase with both unit and end-to-end tests to ensure functionality and 
+                        performance.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/ItzelQuintana/DEV011-MD-LINKS-IQ"><i class="fab fa-github"></i>MDLinks</a></h3>
+                    <p>An npm installable library to analyze links within Markdown files using JavaScript for Node.js. Included 
+                        comprehensive unit tests covering a minimum of 70% of statements, functions, lines, and branches</p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/ItzelQuintana/DEV011-BA06"><i class="fab fa-github"></i> GuessTheNumber</a></h3>
+                    <p>Developed a JavaScript-based REST API for managing a burger restaurant system. Conducted 
+                        comprehensive testing, covering 90% of the codebase with both unit and end-to-end tests to ensure functionality and 
+                        performance.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/ItzelQuintana/DEV011-MD-LINKS-IQ"><i class="fab fa-github"></i>MDLinks</a></h3>
+                    <p>An npm installable library to analyze links within Markdown files using JavaScript for Node.js. Included 
+                        comprehensive unit tests covering a minimum of 70% of statements, functions, lines, and branches</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section education-section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Web Developer</h3>
+                <p><strong>Laboratoria</strong> | August 2023 - February 2024</p>
+            </div>
+            <div class="education">
+                <h3>Chemical Engineer</h3>
+                <p><strong>National Autonomous University of Mexico, Faculty of Chemistry</strong> | August 2015 - May 2020</p>
+            </div>
+        </section>
     </div>
 </body>
 </html>

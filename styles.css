@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #85586c;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    border: 4px solid #fff;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #a45785;
+    color: #fff;
+    text-align:justify;
+    padding:1em;
+}
+
+.banner-content {
+    max-width: 600px;
+  
+   
+}
+
+.skills {
+    display: flex;
+    flex-wrap: nowrap; /* No permitir que se envuelvan en varias líneas */
+    justify-content: center; /* Distribuir el espacio entre los contenedores */
+    gap: 0.5rem;
+}
+
+.skill {
+    background-color: #dfd0af;
+    color:black;
+    padding: 0.5rem; /* Mantén el padding pequeño */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem; /* Mantén el tamaño de fuente pequeño */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 0 1 auto; /* Permitir que el tamaño del contenedor dependa del contenido */
+    text-align: center; /* Centrar el texto */
+}
+
+.skill i {
+    margin-right: 0.3rem; /* Reducido el margen */
+    font-size: 1.2rem; /* Reducido el tamaño del icono */
+}
+
+.projects-section {
+    background-color: #e8acac;
+    padding: 2rem;
+}
+
+.projects .project {
+    margin-bottom: 1.5rem;
+}
+
+.projects .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0073e6;
+}
+
+.projects .project p {
+    margin: 0.2rem 0;
+}
+
+.education-section {
+    background-color: #e8acac;
+    padding: 2rem;
+}
+
+.education {
+    margin-bottom: 1.5rem;
+}
+
+.education h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #0073e6;
+}
+
+.education p {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
